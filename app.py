@@ -38,15 +38,25 @@ def main():
     service = build('calendar', 'v3', credentials=creds)
 
     # Call the Calendar API
-    event_types = # my goals
+    event_types = ['My own courses on my blog website.',
+    'Finish and post the Google project',
+    'Introduction to probability models and PQRS(post)T',
+    'Listen to nlp book PQRS(post)T',
+    'Chess GM Videos',
+    'Beat GW1 Completionist Swapping Roles RNG',
+    'Beat BG2 Swapping Roles',
+    'Play Chess and fill out 1000 lines in the "candidate moves1" file',
+    'Relax',
+    'All of the social graph book PQRS(post)T',
+    'How to prove it PQRS(post)T',
+    ]
 
 
     now = datetime.now()
-    days_to_schedule_out = 30
+    days_to_schedule_out = 10
     for days_ahead in range(days_to_schedule_out):
         for slot in range(1,4):
             date = (now - timedelta(hours=7) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
-            slot = 1
             if slot == 1:
                 start_time = '17:30:00-07:00'
                 end_time = '18:20:00-07:00'
