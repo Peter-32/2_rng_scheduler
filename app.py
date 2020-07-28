@@ -38,19 +38,7 @@ def main():
     service = build('calendar', 'v3', credentials=creds)
 
     # Call the Calendar API
-    event_types = ['My own courses on my blog website.  ',
-    'Finish and post the Google project',
-    'Introduction to probability models and PQRS(post)T',
-    'Listen to nlp book PQRS(post)T',
-    'Chess GM Videos',
-    'Beat GW1 Completionist Swapping Roles RNG',
-    'Beat BG2 Swapping Roles',
-    'Divinity Complete RNG 3 People',
-    'Play Chess and fill out 1000 lines in the "candidate moves1" file',
-    'Relax',
-    'All of the social graph book PQRS(post)T',
-    'How to prove it PQRS(post)T',
-    ]
+    event_types = # my goals
 
 
     now = datetime.now()
