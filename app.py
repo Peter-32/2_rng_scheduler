@@ -48,17 +48,18 @@ def main(days_to_schedule_out):
     'Div',
     "Data in model out - topic: what I've done recently",
     "Coursera courses - data engineer track has interesting skills",
-    "Presentation in the wilderness.  Recording app and topic/speech"
+    "Presentation in the wilderness.  Recording app and topic/speech",
+    "Learn Hin1i"
     ]
 
     now = datetime.now()
     for days_ahead in range(int(days_to_schedule_out)):
-    	is_sunday = False
+        is_sunday = False
         for slot in range(1,4):
             my_datetime = (now - timedelta(hours=7) + timedelta(days=days_ahead))
             if my_datetime.weekday() == 6:
-            	is_sunday = True
-            	break
+                is_sunday = True
+                continue
             date = my_datetime.strftime("%Y-%m-%d")
             if slot == 1:
                 start_time = '17:30:00-07:00'
@@ -84,8 +85,8 @@ def main(days_to_schedule_out):
               },
             }
             event = service.events().insert(calendarId='primary', body=event).execute()
-		if is_sunday:
-			continue
+        if is_sunday:
+            continue
 
     print("Done")
 
