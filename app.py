@@ -40,9 +40,27 @@ def main(days_to_schedule_out):
 
     # Call the Calendar API
     event_types = [
-    'Coursera courses',
-    'DS Project and blog',
-    'C, JS, Rust C++, C# Project and blog',
+    'Coursera courses and blog',
+    'Data project and blog',
+    'Data project and blog',        
+    'Swift and blog',
+    'Swift and blog',
+    'Swift and blog',
+    'Swift and blog',
+    'Swift and blog',
+    'Swift and blog',
+    'Swift and blog',
+    'Java/Kotlin and blog',
+    'Java/Kotlin and blog',
+    'Java/Kotlin and blog',
+    'JavaScript and blog',
+    'Serverless platforms like firebase, squarespace, email marketing services, video uploads, image uploads, chat services, payment services, api services like zapier.  Simpler the code base the better.',    
+    'Serverless platforms like firebase, squarespace, email marketing services, video uploads, image uploads, chat services, payment services, api services like zapier.  Simpler the code base the better.',    
+    'Serverless platforms like firebase, squarespace, email marketing services, video uploads, image uploads, chat services, payment services, api services like zapier.  Simpler the code base the better.',    
+    'Social media like twitter, youtube, instagram, linkedin, facebook, tiktok, snapchat; navigate these platforms and promotion of apps and products',
+    'Social media like twitter, youtube, instagram, linkedin, facebook, tiktok, snapchat; navigate these platforms and promotion of apps and products',
+    'Social media like twitter, youtube, instagram, linkedin, facebook, tiktok, snapchat; navigate these platforms and promotion of apps and products',        
+    'C# with unity game development',
     '6o9',
     ]
 
