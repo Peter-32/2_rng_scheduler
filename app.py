@@ -40,16 +40,10 @@ def main(days_to_schedule_out):
 
     # Call the Calendar API
     event_types = [
-    '+30% 6o9',
-    'Medium!',
-    'Open-source (don1 but12 twi114 a10)',
-    'Bu6 9oun1y',
-    'Templates of code (0o51 6ea9, maybe e9oo7)',
-    'Div',
-    "Data in model out - topic: what I've done recently",
-    "Coursera courses - data engineer track has interesting skills",
-    "Presentation in the wilderness.  Recording app and topic/speech",
-    "Learn Hin1i"
+    'Coursera courses',
+    'DS Project and blog',
+    'C, JS, Rust C++, C# Project and blog',
+    '6o9',
     ]
 
     now = datetime.now()
@@ -67,9 +61,21 @@ def main(days_to_schedule_out):
             elif slot == 2:
                 start_time = '20:00:00-07:00'
                 end_time = '20:50:00-07:00'
-            else:
+            elif slot == 3:
                 start_time = '21:00:00-07:00'
                 end_time = '21:50:00-07:00'
+            elif slot == 4:
+                start_time = '13:00:00-07:00'
+                end_time = '13:50:00-07:00'
+            elif slot == 5:
+                start_time = '14:00:00-07:00'
+                end_time = '14:50:00-07:00'
+            elif slot == 6:
+                start_time = '15:00:00-07:00'
+                end_time = '15:50:00-07:00'
+            elif slot == 7:
+                start_time = '16:00:00-07:00'
+                end_time = '16:50:00-07:00'
             start_datetime = f'{date}T{start_time}'
             end_datetime = f'{date}T{end_time}'
 
